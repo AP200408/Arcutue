@@ -1,0 +1,57 @@
+.interactive-love-quotes {
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 85%;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: heartbeat 1.2s ease-in-out infinite;
+}
+
+.quote {
+  opacity: 125%;
+  font-size: 1.5em;
+  color: #ff6f91;
+  transition: opacity 0.5s ease;
+  margin-bottom: 20px;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.next-quote-button {
+  background: #ff6f91;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.next-quote-button:hover {
+  background: #ff85c0;
+}
+
+.heart-icon {
+  font-size: 1.5em;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  /* 25% { transform: scale(1.1); } */
+  50% { transform: scale(0.98); }
+  75% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}

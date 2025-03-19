@@ -1,0 +1,28 @@
+.cupid-arrow {
+  position: fixed;
+  top: 50%;
+  left: -100px;
+  animation: shootArrow 10s linear infinite;
+  z-index: 5;
+}
+
+@keyframes shootArrow {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(110vw) translateY(-20px) rotate(15deg);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(110vw) translateY(-20px) rotate(15deg);
+    opacity: 0;
+  }
+}

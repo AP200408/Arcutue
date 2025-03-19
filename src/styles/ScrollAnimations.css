@@ -1,0 +1,9 @@
+.rotating-heart-container {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  width: 170px;
+  height: 170px;
+  z-index: 5;
+  overflow: hidden;
+}

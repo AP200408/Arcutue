@@ -1,0 +1,58 @@
+.glider-contain {
+  height: 500px;
+  width: 98%;
+  margin: 20px auto;
+  perspective: 1000px;
+}
+
+.glider-slide {
+  transition: transform 0.5s;
+}
+
+.glider-slide img {
+  width: auto;
+  height: 400px;         /* Fixed height for uniformity */
+  object-fit: cover;     /* Crop images to fill the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Thumbnails styling */
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: auto;
+  height: 80px;
+  object-fit: cover;
+  margin: 0 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border 0.3s, transform 0.3s;
+}
+
+.thumbnail:hover {
+  border: 2px solid #ff69b4;
+  transform: scale(1.05);
+}
+
+/* Navigation buttons */
+.glider-prev,
+.glider-next {
+  background: #ff69b4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.glider-prev:hover,
+.glider-next:hover {
+  background: #ff85c0;
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #fff0f6, #ffe6f0);
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.App-header {
+  padding: 40px 20px;
+}
+
+.App-header h1 {
+  font-size: 3.5em;
+  color: #ff6f91;
+  text-shadow: 2px 2px #ffccd5;
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 1.5em;
+  color: #6b5b95;
+  margin-top: 10px;
+}
+
+.carousel-section,
+.grid-section,
+.scroll-section {
+  margin: 60px 20px;
+}
+
+.App-footer {
+  background: #ffccd5;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #6b5b95;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
