@@ -54,3 +54,47 @@
 .glider-next:hover {
   background: #ff85c0;
 }
+
+@media (max-width: 1024px) {
+  .glider-slide img {
+    height: 250px;
+  }
+  .thumbnail {
+    width: 70px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .glider-contain {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .glider-slide img {
+    height: 200px;
+  }
+  .thumbnail {
+    width: 60px;
+    height: 45px;
+  }
+  .glider-prev,
+  .glider-next {
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .glider-slide img {
+    height: 150px;
+  }
+  .thumbnail {
+    width: 50px;
+    height: 38px;
+  }
+  .glider-prev,
+  .glider-next {
+    padding: 3px 6px;
+    font-size: 14px;
+  }
+}
