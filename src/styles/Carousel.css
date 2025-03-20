@@ -67,6 +67,10 @@
 
 @media (max-width: 768px) {
   .glider-contain {
+    height: 300px;
+  }
+
+  .glider-contain {
     width: 90%;
     margin: 15px auto;
   }
@@ -85,6 +89,10 @@
 }
 
 @media (max-width: 480px) {
+  .glider-contain {
+    height: 170px;
+  }
+
   .glider-slide img {
     height: 150px;
   }
