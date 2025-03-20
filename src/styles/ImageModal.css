@@ -37,3 +37,19 @@
   cursor: pointer;
   font-size: 16px;
 }
+
+@media (max-width: 480px) {
+  .image-modal-content {
+    max-width: 95%;
+    max-height: 85vh;
+  }
+  .image-modal-content img {
+    width: 100%;
+    height: auto;
+  }
+  .modal-close-button {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+}
