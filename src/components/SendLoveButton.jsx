@@ -12,7 +12,6 @@ const SendLoveButton = () => {
       duration: Math.random() * 1 + 1
     }));
     setBurstHearts(hearts);
-    // Remove burst hearts after 3 seconds
     setTimeout(() => {
       setBurstHearts([]);
     }, 3000);

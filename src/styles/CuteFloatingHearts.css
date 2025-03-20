@@ -13,7 +13,6 @@
   bottom: -50px;
   width: 30px;
   height: 30px;
-  /* The inline SVG below is designed with a viewBox of "-10 -5 20 18" to mimic the heart drawn in HeartsParticles */
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -5 20 18'><path fill='%23ff69b4' d='M0,2.5 C0,-5,-10,-5,-10,2.5 C-10,5,0,10,0,13 C0,10,10,5,10,2.5 C10,-5,0,-5,0,2.5 Z'/></svg>");
   background-size: contain;
   background-repeat: no-repeat;

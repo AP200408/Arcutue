@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/CuteFloatingHearts.css';
 
 const CuteFloatingHearts = () => {
-  // Create an array of hearts with randomized styles
   const hearts = Array.from({ length: 20 }).map((_, i) => ({
     left: Math.random() * 100,
     delay: Math.random() * 8,

@@ -1,5 +1,4 @@
 .masonry {
-  /* 4 columns on wide screens */
   column-count: 4;
   column-gap: 1rem;
   max-width: 1200px; 
@@ -7,20 +6,19 @@
 }
 
 .masonry-item {
-  display: inline-block; /* ensures items flow in columns */
+  display: inline-block;
   width: 100%;
-  margin-bottom: 1rem; /* spacing between items vertically */
+  margin-bottom: 1rem;
 }
 
 .masonry-item img {
   display: block;
   width: 100%;
-  height: auto;      /* preserve aspect ratio */
+  height: auto;
   border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* Optional: make layout responsive with media queries */
 @media (max-width: 1024px) {
   .masonry {
     column-count: 3;

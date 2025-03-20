@@ -110,12 +110,10 @@ const LoveQuotes = () => {
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-  // Function to change to a random quote that is different from the current one
   const changeQuoteRandomly = () => {
     setFade(false);
     setTimeout(() => {
       let newIndex = Math.floor(Math.random() * quotes.length);
-      // Ensure the new quote is different from the current one (if more than one quote exists)
       if (quotes.length > 1) {
         while (newIndex === quoteIndex) {
           newIndex = Math.floor(Math.random() * quotes.length);
@@ -123,10 +121,9 @@ const LoveQuotes = () => {
       }
       setQuoteIndex(newIndex);
       setFade(true);
-    }, 500); // transition duration should match CSS timing
+    }, 500);
   };
 
-  // Automatically change quote every 4 seconds
   useEffect(() => {
     const intervalId = setInterval(() => {
       changeQuoteRandomly();

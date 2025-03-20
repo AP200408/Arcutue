@@ -3,7 +3,6 @@ import '../styles/Grid.css';
 
 const images = [
   '/images/grid1.jpg',
-  // '/images/grid5.jpg',
   '/images/grid2.jpg',
   '/images/grid6.jpg',
   '/images/grid3.jpg',
